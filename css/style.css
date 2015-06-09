@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+  background-color: transparent;
+  background-color: #fff;
+  border: 3px solid #ddd !important;
+}
+
+  #table {
+    border-collapse: collapse !important;
+    background-color: transparent;
+    background-color: #fff;
+    border: 10px solid #ddd !important;
+}
+#loading{
+	position: relative;
+	padding-top: 250px;
+}
+  
+ 

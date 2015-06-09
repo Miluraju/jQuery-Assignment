@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON Parseing</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/home/milu/jQueryA/js/parser.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="UTF-8">
+</head>
+<body>
+ <table id="table">
+  <tr>
+    <th>Name</th>
+    <th>Full Name</th>
+    <th>Size</th>
+    <th>Created At</th>
+    <th>Language</th>
+    <th>Has Issues</th>
+    <th>Has Downloads</th>
+    <th>Watchers</th>
+    <th><button class='followersButton'>Followers</button></th>
+  </tr>
+<div id="loading"><center><img src="images/ajax-loader.gif"></center></div>
+
+</table> 
+<table id="followerstable">
+ <div id="loadingfollowers"><center><img src="images/ajax-loader.gif"></center></div>
+</table> 
+<button id='hide'>Hide</button>
+	
+</body>
+</html>
